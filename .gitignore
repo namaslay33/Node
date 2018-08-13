@@ -3,4 +3,5 @@ package-lock.json
 node_modules
 learnyounode3.js
 hw2.js
+.gitignore
 
