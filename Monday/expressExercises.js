@@ -15,6 +15,12 @@ app.get('/greet/:name', function(request, response){
     response.send("Hello " + name);
 });
 
+app.get('/year', function(req, res){
+    var year = req.query.year;
+
+    res.send("You were born in " + year + ".")
+})
+
 
 app.listen(8000, function(){
     console.log('Listening on port 8000');
